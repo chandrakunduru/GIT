@@ -7,6 +7,16 @@ HI hellow
 	4. It gives the list of information of files which are needs to be get add using "git add". The file is untracked, meaning that Git sees a file not part of a previous commit.
 	5. If the file gets added then it will give list of files that needs to be commit "git commit filename".
 	6. Merge conflict information.
+	
+3. git add
+	a. The git add command adds a change in the working directory to the staging area.  It tells Git that you want to include updates to a particular file in the next commit. git add command will not effect local repository with any significant way changes are not actually recorded until you run git commit.
+        b. Stage all changes in <directory> for the next commit.
+		"git add -p"
+Question on git add:
+1. Why git add required?
+	1. "git add filename" this command add changes to staging area, and commit command picks what's in the staging area.
+	2. Git works by using a "staging" area where you prepare what you are going to bundle together as a commit. So, you decided what set of changes you want to commit (e.g. all or a subset), you add them to the staging area, and then you commit what's in the staging area.
+	3. If you want to just commit stuff that you've changed, but not include newly created files you can use git commit -a "Comment for modified files already under source control."
 
 To create a new branch use
 
