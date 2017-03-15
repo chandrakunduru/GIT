@@ -1,6 +1,12 @@
 HI hellow
 
-
+2. git status: 
+	1. The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.
+	2. Its give information of what's been going on with git add and git commit. Status messages also include relevant instructions for staging/unstaging files. 
+	3. It gives the information of the branch to which git is currently pointing to.
+	4. It gives the list of information of files which are needs to be get add using "git add". The file is untracked, meaning that Git sees a file not part of a previous commit.
+	5. If the file gets added then it will give list of files that needs to be commit "git commit filename".
+	6. Merge conflict information.
 
 To create a new branch use
 
@@ -21,6 +27,7 @@ To create a new branch and switch to it in one step
 To delete a branch, use
 
 	git branch -d <branch-name>
+
 
 #To create a branch with the changes from the current branch, do
 
